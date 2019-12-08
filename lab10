@@ -5,6 +5,11 @@ import sys
 num = sys.argv[1:]
 
 def Average():
-    print(num)
+    total = sum(int(i) for i in num)
+    count = len(num)
+    avg = total / count
+
+
+    print('average of the ', count, 'is: ', int(avg))
 
 Average()
