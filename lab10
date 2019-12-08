@@ -1,5 +1,4 @@
 #! /usr/bin/python3
-
 import sys
 
 num = sys.argv[1:]
@@ -10,6 +9,6 @@ def Average():
     avg = total / count
 
 
-    print('average of the ', count, 'is: ', int(avg))
+    print('average of the', count, 'is:', avg)
 
 Average()
